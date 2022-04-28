@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  #container {
+    display: flex;
+    flex-direction: column;
+    width:100%;
+  }
+  
+
+.row{
+    display: flex;
+    flex-direction:row;
+
+}
+.row>div{
+    border: 1px solid black;
+    height: 35px;
+    width: 35px;
+    padding-left:3px ;
+}
+  
+.col:hover {
+    background: blue;
+}
